@@ -29,9 +29,9 @@ public class Main {
         }
     }
 
-    public static int generateRandomAge(){
+    public static int generateRandomAge() {
         Random random = new Random();
-       int randomAge = random.nextInt(60);
+        int randomAge = random.nextInt(60);
         System.out.println("Age: " + randomAge);
         return randomAge;
 
